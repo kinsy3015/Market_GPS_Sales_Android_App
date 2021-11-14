@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#A1D7EF"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_arrow_white_24"
+            android:clickable="true"/>
+
+        <TextView
+            android:id="@+id/txt_itemName"
+            android:layout_width="0dp"
+           android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="제품이름" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="63dp"
+            android:layout_height="61dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_search_24"
+            android:text="Button" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A6A6A6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <Button
+            android:id="@+id/button_go_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="지도로 보기"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="40dp"
+        android:background="#A6A6A6"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_goodName"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/my_border"
+                android:textSize="20dp"
+                android:text="상품명" />
+
+            <TextView
+                android:id="@+id/txt_detailMean"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/my_border"
+                android:textSize="20dp"
+                android:text="상품디테일" />
+            <TextView
+
+                android:id="@+id/txt_goodPrice"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/my_border"
+                android:textSize="20dp"
+                android:text="상품 가격" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="할인 이벤트"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox_Dc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="1+1 행사"/>
+
+                <CheckBox
+                    android:id="@+id/checkBox_plusOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"/>
+
+            </LinearLayout>
+
+
+            <TextView
+
+                android:id="@+id/txt_goodDcTerm"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/my_border"
+                android:textSize="20dp"
+                android:text="상품 할인 기간" />
+
+            <TextView
+
+                android:id="@+id/txt_entpName"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/my_border"
+                android:textSize="15dp"
+                android:text="업체명" />
+
+            <TextView
+
+                android:id="@+id/txt_entpTelno"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/my_border"
+                android:textSize="15dp"
+                android:text="화번호" />
+
+            <TextView
+
+                android:id="@+id/txt_entpRoadAddr"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@layout/my_border"
+                android:textSize="15dp"
+                android:text="도로기본주소 + 도로상세주소" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="20dp"
+
+        android:background="#A6A6A6"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="133dp">
+
+
+<!--        <Button-->
+<!--            android:id="@+id/button9"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:textSize="16dp"-->
+<!--            android:text="길찾기" />-->
+
+        <Button
+            android:id="@+id/btn_callPhone"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:text="전화걸기" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

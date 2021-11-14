@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/basket_gdimg"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="5">
+    </ImageButton>
+
+
+    <TextView
+        android:id="@+id/basket_gdname"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </TextView>
+
+
+    <Button
+        android:id="@+id/basket_gddelete"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1">
+    </Button>
+
+</LinearLayout>
